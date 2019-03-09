@@ -11,14 +11,13 @@ class Television
 		this.channel = channel;
 	}
 
-	public void turnOn()
+	public void turnOnOff()
 	{
-		state = "ON";
-	}
-
-	public void turnOff()
-	{
-		state = "OFF";
+		if(state =="ON")
+			state = "OFF";
+		else
+			state = "ON";
+			
 	}
 	
 	public void increaseChannel()

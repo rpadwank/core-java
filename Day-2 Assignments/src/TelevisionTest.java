@@ -3,7 +3,7 @@ class TelevisionTest
 	public static void main(String args[])
 	{
 		Television tv = new Television("OFF",20,1);
-		tv.turnOn();
+		tv.turnOnOff();
 		tv.increaseVolume();
 		tv.increaseVolume();
 		tv.increaseVolume();
@@ -16,6 +16,6 @@ class TelevisionTest
 		tv.increaseChannel();
 		tv.increaseChannel();
 		tv.displayInformation();
-		tv.turnOff();
+		tv.turnOnOff();
 	}
 }
