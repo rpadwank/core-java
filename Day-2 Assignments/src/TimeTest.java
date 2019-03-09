@@ -3,10 +3,12 @@ class TimeTest
 	public static void main(String args[])
 	{
 		Time t1 = new Time();
-		t1.setData(6,41);
+		t1.setHours(6);
+		t1.setMinutes(41);
 		
 		Time t2 = new Time();
-		t2.setData(7,35);
+		t2.setHours(7);
+		t2.setMinutes(35);
 
 		Time t3 = new Time();
 

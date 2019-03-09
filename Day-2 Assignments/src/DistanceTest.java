@@ -3,10 +3,12 @@ class DistanceTest
 	public static void main(String args[])
 	{
 		Distance d1 = new Distance();
-		d1.setData(3,9);
+		d1.setFeet(3);
+		d1.setInches(9);
 		
 		Distance d2 = new Distance();
-		d2.setData(4,9);
+		d2.setFeet(4);
+		d2.setInches(9);
 
 		Distance d3 = new Distance();
 

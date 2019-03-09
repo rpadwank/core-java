@@ -3,9 +3,13 @@ class Distance
 	private int feet;
 	private double inches;
 
-	public void setData(int feet, double inches)
+	public void setFeet(int feet)
 	{
 		this.feet = feet;
+	}
+
+	public void setInches(double inches)
+	{
 		this.inches = inches;
 	}
 	

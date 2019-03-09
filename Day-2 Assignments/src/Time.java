@@ -3,7 +3,13 @@ class Time
 	private int hours;
 	private int minutes;
 
-	public void setData(int hours, int minutes)
+	public void setHours(int hours)
+	{
+		this.hours = hours;
+		this.minutes = minutes;
+	}
+
+	public void setMinutes(int minutes)
 	{
 		this.hours = hours;
 		this.minutes = minutes;
