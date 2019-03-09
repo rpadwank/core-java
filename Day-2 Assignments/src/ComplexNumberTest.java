@@ -4,9 +4,13 @@ class ComplexNumberTest
 	{
 
 		ComplexNumber cn1 = new ComplexNumber();
-		cn1.setData(2,5);
+		cn1.setRealNumber(2);
+		cn1.setImaginaryNumber(5);
+		
 		ComplexNumber cn2 = new ComplexNumber();
-		cn2.setData(-1, -7);
+		cn2.setRealNumber(-1);
+		cn2.setImaginaryNumber(-7);
+		
 		ComplexNumber cn3;
 		cn1.display();
 		cn2.display();

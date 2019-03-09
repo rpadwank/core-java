@@ -3,9 +3,13 @@ class ComplexNumber
 	private double real;
 	private double imaginary;
 	
-	public void setData(double real, double imaginary)
+	public void setRealNumber(double real)
 	{
 		this.real = real;
+	}
+	
+	public void setImaginaryNumber(double imaginary)
+	{
 		this.imaginary = imaginary;
 	}
 
